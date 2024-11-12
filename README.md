@@ -1,5 +1,13 @@
 # Criação do Script
-### [Infraestutura como Código](https://docs.google.com/presentation/d/1_vwPcBh7YUhUfu37lAUYQqhhP8LMmPHRCXo1Bc7czTs/edit#slide=id.p3)
+## [Infraestutura como Código](https://docs.google.com/presentation/d/1_vwPcBh7YUhUfu37lAUYQqhhP8LMmPHRCXo1Bc7czTs/edit#slide=id.p3)
+### Estrutura do Sistema de Arquivos
+
+| Grupo | Usuários | Permissões |
+|---|---|---|
+| GRP_ADM | carlos, maria, joao | Leitura e escrita em /adm |
+| GRP_VEN | debora, sebastiana, roberto | Leitura e escrita em /ven |
+| GRP_SEC | josefina, amanda, rogerio | Leitura e escrita em /sec |
+
 #### Criei o script iac2.sh para poder criar automaticamente os usuários, grupos e diretórios
 #### Também criei um script apagar_iac2.sh para apagar o que criei se for necessário para não tomar muito tempo
 
