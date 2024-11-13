@@ -1,7 +1,20 @@
-# Criação do Script
-## [Infraestutura como Código](https://docs.google.com/presentation/d/1_vwPcBh7YUhUfu37lAUYQqhhP8LMmPHRCXo1Bc7czTs/edit#slide=id.p3)
-### Estrutura do Sistema de Arquivos
+# [Nomes de usuário padrão](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/managing-users.html#ami-default-user-names)
 
+## Criação do Script
+## [Infraestutura como Código](https://docs.google.com/presentation/d/1_vwPcBh7YUhUfu37lAUYQqhhP8LMmPHRCXo1Bc7czTs/edit#slide=id.p3)
+### Os nomes de usuário padrão são:
+```
+Para uma AMI do Amazon Linux, o nome do usuário é ec2-user.
+Para uma AMI do CentOS, o nome do usuário é centos ou ec2-user.
+Para uma AMI do Debian, o nome do usuário é admin.
+Para uma AMI do Fedora, o nome do usuário é fedora ou ec2-user.
+Para uma AMI do RHEL, o nome do usuário é ec2-user ou root.
+Para uma AMI do SUSE, o nome do usuário é ec2-user ou root.
+Para uma AMI Ubuntu, o nome de usuário é ubuntu.
+Para uma AMI do Oracle, o nome do usuário é ec2-user.
+Para uma AMI do Bitnami, o nome do usuário é bitnami.
+```
+### Estrutura do Sistema de Arquivos
 | Grupo | Usuários | Permissões |
 |---|---|---|
 | GRP_ADM | carlos, maria, joao | Leitura e escrita em /adm |
