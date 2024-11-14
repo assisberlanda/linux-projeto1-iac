@@ -44,3 +44,24 @@ Visualizar a pasta root de outro diretório
 Voltar a pasta usuário
 
     cd ../
+
+# Comandos Git
+…or create a new repository on the command line
+```
+echo "# paraApagar" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:assisberlanda/paraApagar.git
+git push -u origin main
+git fecth origin
+git merge origin/main //mesclar repositorio
+
+```
+…or push an existing repository from the command line
+```
+git remote add origin git@github.com:assisberlanda/paraApagar.git
+git branch -M main
+git push -u origin main
+```
